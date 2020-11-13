@@ -16,10 +16,8 @@ export default class Home extends Component{
                     </nav>
                     <div className="row banner">
                      <div className="banner-text">
-                        <h1 className="responsive-headline">I am <span> Luis Martinez</span>.</h1>
-                        <h3>I'm a Chicago based <span>web developer </span> working hard to create awesome and
-                        effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling </a>
-                        and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                        <h1 className="responsive-headline">Welcome to <span> Mackenzie Grace Photography</span>.</h1>
+                        <h3>Lorem</h3>
                         <hr />
                         <ul className="social">
                         <li><a href="https://www.facebook.com/profile.php?id=100001276301148" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" /></a></li>
