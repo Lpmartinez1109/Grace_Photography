@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Home from './pages/Home/home';
 import Works from './pages/Works/works';
 import Contact from './pages/Contact/contact';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-class App extends Component{
-  render(){
+function App (){
     return(
       <Router>
       <div className="App">
@@ -17,7 +16,6 @@ class App extends Component{
       </div>
       </Router>
     )
-  }
 };
 
 export default App;
