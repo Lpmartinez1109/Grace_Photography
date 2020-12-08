@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import Works from "../Works/works";
-
+import "../Home/home.css";
 export default class Home extends Component{
     render(){
         return(

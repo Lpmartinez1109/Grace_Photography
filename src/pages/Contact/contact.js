@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "../Contact/contact.css";
 
 export default class Contact extends Component{
     render(){
@@ -10,7 +11,6 @@ export default class Contact extends Component{
                         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
                             <li className="current"><a className="smoothscroll" href="/">Home</a></li>
-                            <li><a className="smoothscroll" href="#about">About</a></li>
                             <li><a className="smoothscroll" href="/works">Works</a></li>
                             <li><a className="smoothscroll" href="/contact">Contact Me</a></li>
                         </ul>
@@ -51,6 +51,11 @@ export default class Contact extends Component{
                                     </div>
                                 </fieldset>
                             </form>
+                            <div id="message-warning"> Error Message!</div>
+                            <div id="message-success">
+                            <i className="fa fa-check" />Your message was sent, thank you!<br />
+                            </div>
+
                         </div>
                     </div>
                 </section>

@@ -15,7 +15,7 @@ export default class Work extends Component{
                         </ul>
                     </nav>
                     <div className="row">
-                        <div className="twekve columns collapsed">
+                        <div className="twelve columns collapsed">
                             <h1>Here are some examples of my works!</h1>
                         </div>
                     </div>
