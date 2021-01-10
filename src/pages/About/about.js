@@ -5,6 +5,17 @@ export default class About extends Component{
         return(
             <React.Fragment>
                 <section id ="about"> 
+                    <nav id="nav-wrap">
+                        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                        <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+                        <ul id="nav" className="nav">
+                            <li><a className="smoothscroll" href="/">Home</a></li>
+                            <li className="current"><a className="smoothscroll" href="/about">About</a></li>
+                            <li><a className="smoothscroll" href="/works">Works</a></li>
+                            <li><a className="smoothscroll" href="/contact">Contact</a></li>
+                            
+                        </ul>
+                    </nav>
                     <div className="row">
                         <div className=" three columns">
                             <image className="profile-pic" src="" alt="" />
@@ -23,7 +34,7 @@ export default class About extends Component{
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="/contact" className="button"><i className="fas fa-envelope-open-text" />Contact Me!</a>
+                                        <a href="/contact" className="button"><i className="fa fa-envelope" />Contact Me!</a>
                                     </p>
                                 </div>
                             </div>
