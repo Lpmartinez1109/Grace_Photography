@@ -4,12 +4,12 @@ export default class Home extends Component{
     render(){
         return(
                 <header id="home">
-                    <nav id="nav-bar">
-                        <a className="mobile-btn" href="#nav-bar" title="Show navigation">Show navigation</a>
+                    <nav id="nav-wrap">
+                        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
                             <li className="current"><a className="smoothscroll" href="/">Home</a></li>
-                            <li><a className="smoothscroll" href="#about">About</a></li>
+                            <li><a className="smoothscroll" href="/about">About</a></li>
                             <li><a className="smoothscroll" href="/works">Works</a></li>
                             <li><a className="smoothscroll" href="/contact">Contact Me</a></li>
                         </ul>
@@ -26,7 +26,12 @@ export default class Home extends Component{
                         </ul>
                      </div> 
                     </div>
+                    <p className="scrolldown">
+                        <a className="smoothscroll" href="/about"><i className="icon-down-circle" /></a>
+                    </p>
+                    
                 </header>
+                
 
         )
     }
